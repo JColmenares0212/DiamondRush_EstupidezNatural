@@ -1,0 +1,28 @@
+# Agent tooling and local session data
+.engram/
+.copilot/
+.github/
+.config/
+AppData/
+.vscode/
+opencode.json
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local captures and generated artifacts
+*.log
+*.tmp
+*.bak
+screenshots/
+capturas/
